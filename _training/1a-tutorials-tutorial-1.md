@@ -28,7 +28,7 @@ This gateway is the side of APEX that handles intranet traffic. **Please log in*
 
 ## Step 2: Create a REST API
 
-![apex portal homepage](images/tutorial-1/2-add-api.png "You'll be seeing this a lot.")
+![apex portal homepage](/images/tutorial-1/2-add-api.png "You'll be seeing this a lot.")
 
 After logging in, find the giant plus icon at the top right of the screen next to the search bar. This button is what you will click on to create APIs and APPs. **Select Create API** from the drop-down menu.
 
@@ -36,7 +36,7 @@ After logging in, find the giant plus icon at the top right of the screen next t
 
 #### Add API
 
-![create api screen](images/tutorial-1/3-add-api-page.png "Make APIs.")
+![create api screen](/images/tutorial-1/3-add-api-page.png "Make APIs.")
 
 Here we can specify how we want to create our API. The main methods are from scratch using our API Setup or by importing a file such as a SWAGGER/WSDL document. For our tutorials however, we'll be creating a REST API from scratch. So pick that option. **Specify a name for your API and use this URL for the endpoint:**
 
@@ -47,7 +47,7 @@ This is a sample endpoint for your API to hit when it is called. Click Save to c
 
 #### API Design Page
 
-![api design page](images/tutorial-1/4-add-api-design.png "Complex stuff not needed now.")
+![api design page](/images/tutorial-1/4-add-api-design.png "Complex stuff not needed now.")
 
 We can structure the API functionality here. You can add other commands for the API to do other than GET. For this tutorial, we can just leave everything as default. **Click Save to continue.**
 
@@ -55,15 +55,15 @@ And you have finished creating your very first REST API in APEX. Your API is now
 
 #### The API Implementation Page
 
-![choose implementation](images/tutorial-1/5-implem.png "Choose the corect option.")
+![choose implementation](/images/tutorial-1/5-implem.png "Choose the corect option.")
 
-![pick the live implementation](images/tutorial-1/6-live.png "The only option available anyway.")
+![pick the live implementation](/images/tutorial-1/6-live.png "The only option available anyway.")
 
 **Go to the API Implementation page (Implementation -> Live).** We want to make our APIs calculated endpoint easier on the eyes instead of the auto-populated mess given by APEX.
 
-![implementation page](images/tutorial-1/7-deployments.png "Deployment.")
+![implementation page](/images/tutorial-1/7-deployments.png "Deployment.")
 
-![implementation page edit](images/tutorial-1/8-context-path.png "Deployment .")
+![implementation page edit](/images/tutorial-1/8-context-path.png "Deployment .")
 
 So in the deployments section, **click on the green Edit button** and replace the context path with:
 
@@ -78,13 +78,13 @@ And we're done with the API creation.
 
 #### Test Client
 
-![test client page](images/tutorial-1/9-test-client.png "Test Suite woo.")
+![test client page](/images/tutorial-1/9-test-client.png "Test Suite woo.")
 
 No API creation would be complete without doing some tests. APEX comes with a powerful tool to conduct such tests called Test Client. This allows us to do an API call with many different parameters. Left to its defaults, it will do a GET call on the API and record the attempt in the call logs. **Click on Invoke to call your API.**
 
 #### Call Logging
 
-![Logs page](images/tutorial-1/10-logs.png "Not the un-environmental kind.")
+![Logs page](/images/tutorial-1/10-logs.png "Not the un-environmental kind.")
 *No trees were felled*
 
 All API calls are logged by APEX. This way we can see what happens when the API is called. The caller, resource called, call status, .etc are all collected. **Go to Monitor -> Logs.** We can see that the API call was successful from the number in the status column. 200 in http code means that the call was successful.
@@ -97,21 +97,21 @@ In normal operation, Logs will only log the send and receive requests from the A
 
 Auditing is a function you can turn on for the command you are calling on the API. It basically tells APEX to log the server/resource interactions in the API call. One of the use cases would be to check if APEX is calling the correct resource.
 
-![where to find the process editor](images/tutorial-1/11-resources.png "Hard to find.")
+![where to find the process editor](/images/tutorial-1/11-resources.png "Hard to find.")
 
 **Go back to Implementation -> Live.** You should see a Resources section at the bottom of the page. At the only resource within, **click on the tiny drop-down arrow on the right.** That should bring you into the resource editor.
 
-![process editor](images/tutorial-1/12-process-editor.png "Super complex potential.")
+![process editor](/images/tutorial-1/12-process-editor.png "Super complex potential.")
 
 This is the place where you can create magic with your API calls. But for this tutorial, **click on the Invoke node.** This will bring up the Activity Details Wizard.
 
-![turning auditing on](images/tutorial-1/13-act-wizard.png "Auditors are coming.")
+![turning auditing on](/images/tutorial-1/13-act-wizard.png "Auditors are coming.")
 
 We can turn on auditing by simply checking the Audit checkbox in the wizard. Once you've familiarised yourself more with APEX then you can play around with the other features. For now, **click Finish to close the wizard and Finish again to exit.** Now you can head back to the Test Client and invoke the API again to see the results.
 
-![Before](images/tutorial-1/14-before.png "Before.")
+![Before](/images/tutorial-1/14-before.png "Before.")
 
-![After](images/tutorial-1/15-after.png "After.")
+![After](/images/tutorial-1/15-after.png "After.")
 
 Before, nothing would show up when we click on the magnifying glass on the server/resource side. Now, the body of the http send/repsonse will show up. This is how you know if auditing is turned on.
 
