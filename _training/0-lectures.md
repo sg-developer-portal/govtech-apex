@@ -28,3 +28,5 @@ The lecture covers various topics such as:
 12. How to check Transaction logs and API usage
 13. APEX Artefacts
 14. APEX Professional Services
+
+After watching this lecture, we hope you’ll have a great handle on how to use APEX and can start using it in your own projects.
