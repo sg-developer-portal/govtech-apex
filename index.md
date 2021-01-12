@@ -1,27 +1,27 @@
 ---
 layout: homepage
-title: Isomer Site
-description: Brief site description here
-image: /images/isomer-logo.svg
+title: APEX Information and Training
+description: APEX informational site containing info on APEX.
+image: /images/logo_apex.png
 permalink: /
 notification: Here's a notification bar you can use!
 sections:
     - hero:
-        title: Hero title
-        subtitle: Hero subtitle
-        background: /images/hero-banner.png
-        button: Contact Us
-        url: /contact-us/
+        title: APEX Learning
+        subtitle: Learn more about APEX and how to use it
+        background: /images/img_cityscape_top.png
+        button: Getting Started
+        url: /getting-started/about-apex/
         key_highlights:
-            - title: Highlight A
-              description: Important highlight A is important
-              url: https://google.com
-            - title: Highlight B
-              description: Important highlight B is equally important
-              url: https://gmail.com
-            - title: Page A
-              description: Page A is important too
-              url: /privacy/
+            - title: Providers
+              description: Creating APIs
+              url: /learning-essentials/providers/creating-apis
+            - title: Consumers
+              description: Creating APPs
+              url: /learning-essentials/consumers/creating-apps
+            - title: Learn to Use
+              description: Access our user guides
+              url: /learning-essentials/user-guides/
     - infobar:
         title: Infobar title
         subtitle: Subtitle
