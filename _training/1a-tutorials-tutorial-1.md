@@ -117,4 +117,4 @@ Before, nothing would show up when we click on the magnifying glass on the serve
 
 *Typically, auditing is turned off when in production to reduce the load on the servers. So don't leave it on when you deploy.*
 
-With that, tutorial 1 is done. You may proceed on to the next tutorial which deals with the security of the API.
+With that, tutorial 1 is done. You may proceed on to the [next tutorial](/training/tutorials/tutorial-2) which deals with the security of the API.
