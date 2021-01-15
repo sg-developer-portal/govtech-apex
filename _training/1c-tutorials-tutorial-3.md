@@ -22,7 +22,7 @@ You should still be logged in to the internal (source/intranet) gateway. Since w
 
 ![app create screen](/images/tutorial-3/1-app-create.png "App creation.")
 
-Click on the big plus icon on the right side of the search bar at the top. Then click on "Add APP". This brings us into the APP creation screen. Here we can name our APP and add descriptors, as well as specify a App ID and Shared Secret. For our training purposes, fill in the entries on the left column (App name = Training Helloworld Team**XX** App, description, version, etc.). Leave the column on the right empty, especially the App ID and Shared Secret. These will be generated automatically.
+**Click on the big plus icon** on the right side of the search bar at the top. Then **click on "Add APP".** This brings us into the APP creation screen. Here we can name our APP and add descriptors, as well as specify a App ID and Shared Secret. For our training purposes, fill in the entries on the *left column* (App name = Training Helloworld Team**XX** App, description, version, etc.). Leave the column on the right empty, especially the App ID and Shared Secret. These will be generated automatically.
 
 ## Step 3: Request Access to the API
 
