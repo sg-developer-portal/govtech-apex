@@ -12,7 +12,7 @@ third_nav_title: Tutorials
   
 </div>
 
-We've setup the API, but now as it stands anyone with your API's target endpoint can call your API. That's not what we want. We need to be able to control the access to the API and by using APPs, we can do just that. APPs in APEX are a form of identification for the consumer. With this system, API providers can control access to their APIs by changing the security policy of the API to use L1 authentication.
+We've set up the API, but now as it stands anyone with your API's target endpoint can call your API. That's not what we want. We need to be able to control the access to the API and by using APPs, we can do just that. APPs in APEX are a form of identification for the consumer. With this system, API providers can control access to their APIs by changing the security policy of the API to use L1 authentication.
 
 ## Step 1: Login (Again if you're not already)
 

@@ -20,11 +20,11 @@ This is a relatively short tutorial as compared to the others. We are doing an A
 
 Since it is the APP that allows us to access the API, we need to invoke the API call from the APP's perspective. This is done through the APP's Test Client. Go to the APP that we have created in the last tutorial. Then click on the Test Client on the left side.
 
-## Step 2: Setup the Invoke Command
+## Step 2: Set up the Invoke Command
 
-![setup invoke](/images/tutorial-4/2-setup.png "Setup Invoke.")
+![set up invoke](/images/tutorial-4/2-setup.png "Set up Invoke.")
 
-We need to setup the invoke command to use our APP as the identifying method to invoke the API call. Next to the Invoke and Security buttons there is a Setup button. Click on it to open the Setup Menu. Here we can check if the APP ID and Shared Secret are identical with the APP that we want to use. The values should be auto-populated by the system. Click Save to continue.
+We need to set up the invoke command to use our APP as the identifying method to invoke the API call. Next to the Invoke and Security buttons there is a Setup button. Click on it to open the Setup Menu. Here we can check if the APP ID and Shared Secret are identical with the APP that we want to use. The values should be auto-populated by the system. Click Save to continue.
 
 ## Step 3: Invoke the command
 
