@@ -3,7 +3,7 @@ title: Lectures
 permalink: /training/lectures/
 ---
 
-# APEX Technical Lecture
+# Introduction to APEX
 
 <div class="youtube">
   
