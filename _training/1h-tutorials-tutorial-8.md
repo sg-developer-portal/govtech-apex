@@ -35,6 +35,7 @@ Now here’s an important part. You need to **upload your private key** that you
 ## Step 4: Load the data.json File
 
 ### Bridging API L21
+```json
 {
 	"id" : "1",    
 	"description" : "Bridging API L21.",    
@@ -62,8 +63,10 @@ Now here’s an important part. You need to **upload your private key** that you
 		"httpMethod" : "GET"    
 	}
 }
+```
 
 ### Bridging API L12
+```json
 {
 	"id" : "2",    
 	"description" : "Bridging API L12.",    
@@ -92,6 +95,7 @@ Now here’s an important part. You need to **upload your private key** that you
 		"privateCertFileType" : "pem"
 	}
 }
+```
 
 So after uploading, expand the test helper folder and **open the data.json** file. Now we need to open the written tutorial page and copy the Bridging API L21 and paste it into the .json file. This code chunk does an API call on the proxy API, which will then call the source API. This simulates a bridging API call from the internet to the intranet.
 
