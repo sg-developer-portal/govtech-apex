@@ -85,7 +85,7 @@ No API creation would be complete without doing some tests. APEX comes with a po
 #### Call Logging
 
 ![Logs page](/images/tutorial-1/10-logs.png "Not the un-environmental kind.")
-*No trees were felled*
+> No trees were felled
 
 All API calls are logged by APEX. This way we can see what happens when the API is called. The caller, resource called, call status, .etc are all collected. **Go to Monitor -> Logs.** We can see that the API call was successful from the number in the status column. 200 in http code means that the call was successful.
 

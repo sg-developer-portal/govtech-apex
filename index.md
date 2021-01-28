@@ -4,7 +4,7 @@ title: APEX Information and Training
 description: APEX informational site containing info on APEX.
 image: /images/logo_apex.png
 permalink: /
-notification: Here's a notification bar you can use!
+notification: Welcome to APEX Learning!
 sections:
     - hero:
         title: APEX Learning

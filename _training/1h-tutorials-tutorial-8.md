@@ -97,7 +97,7 @@ Now here’s an important part. You need to **upload your private key** that you
 
 So after uploading, expand the test helper folder and **open the data.json** file. Now we need to open the written tutorial page and copy the Bridging API L21 and paste it into the .json file. This code chunk does an API call on the proxy API, which will then call the source API. This simulates a bridging API call from the internet to the intranet.
 
-You’ll need to change a few things, namely the `appID`, `secret`, `privateCertFileName`, and the `URLs`. The app IDs and secret should match the gateway that the code chunk calls. A quick way to tell is to read the *authprefix* property. If it says **EG**, it's for the proxy gateway, and if it says **IG** then it's for the source gateway. 
+You’ll need to change a few things, namely the `appID`, `secret`, `privateCertFileName`, and the `URLs`. The app IDs and secret should match the gateway that the code chunk calls. A quick way to tell is to read the `authPrefix` property. If it says **EG**, it's for the proxy gateway, and if it says **IG** then it's for the source gateway. 
 
 After updating the appropriate properties, **save the .json file**.
 
