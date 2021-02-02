@@ -19,6 +19,8 @@ We have finished the setup of the source and proxy APIs throughout the tutorial 
 ![login cloud9](/images/tutorial-8/1-login-cloud9.png "On Cloud9.")
 
 Using that same login credentials that you got from the email, **login to Cloud9**. The username is just **providerXX** and the password is the same one used to log into the CMs.
+The URL format is as shown below (replace XX with your ID number):
+**https://providerXX.cloud9.gov.gdshive.com/ide.html**
 
 ## Step 2: Set up the Test Environment
 

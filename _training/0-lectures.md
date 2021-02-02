@@ -30,3 +30,5 @@ The lecture covers various topics such as:
 14. APEX Professional Services
 
 After watching this lecture, we hope you’ll have a great handle on how to use APEX and can start using it in your own projects.
+
+But first, here's a [test](https://forms.office.com/Pages/ResponsePage.aspx?id=2C5u0OVT90SBNoc86LqpO159tOZLdmBPiXDXH-UV7W9UNTU0TDVDSEtFQ0I3Vzk2VElZUFlIVUg4Uy4u) for you to take to test your knowledge of APEX.
