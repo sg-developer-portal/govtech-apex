@@ -26,4 +26,11 @@ Peak Data Size (kB):        100
 Average Data Size (kB):     40
 Bandwidth Reserve (Mbps):   1
 
+|                          | REST API | SOAP API |
+| ------------------------ | -------- | -------- |
+| Peak TPS                 | 20       | 10       |
+| API Calls Per Month      | 500,000  | 250,000  |
+| Peak Data Size (kB)      | 50       | 100      |
+| Average Data Size (kB)   | 20       | 40       |
+| Bandwidth Reserve (Mbps) | 1        | 1        |
 

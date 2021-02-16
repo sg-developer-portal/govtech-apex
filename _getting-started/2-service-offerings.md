@@ -17,8 +17,7 @@ Enables applications to interact between the Internet and Intranet zones
 ## Supported API Format
 Supports REST API and SOAP web services
 
-## 
-API Catalogue
+## API Catalogue
 A self-service API catalogue for users to do “API Shopping”
 
 ## API Test Client
