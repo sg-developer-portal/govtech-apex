@@ -28,6 +28,16 @@ Create an API in the same way that we did in tutorial 1. However, we are dealing
 
 ![intra-inter-param](/images/tutorial-5/1-intra-inter.png "Intranet-internet parameters.")
 
+| Attributes              | Intranet                       | Internet                       |
+| APEX API Name           | Training Helloworld Team**XX** | Training Helloworld Team**XX** |
+| Gateway Name            | training                       | training-pvt                   |
+| Context                 | apex/team**XX**                | apex/team**XX**                |
+| Version                 | v1                             | v1                             |
+| Resource                | helloworld                     | helloworld                     |
+| Sercurity Policy        | **REST L1 Authentication Policy v2 - IG** | **REST L2 Authentication Policy v2 - EG** |
+| Target Endpoint URL     | https://sherlock.apex.gdshive.com/rest/api/helloworld | http://training-pvt.api.gov.gdshive.com/apex/team**XX**/v1/helloworld |
+| Calculated Endpoint URL | http://training-pvt.api.gov.gdshive.com/apex/team**XX**/v1/helloworld | http://training-pvt.api.gov.gdshive.com/apex/team**XX**/v1/helloworld |
+
 In the pictures above you'll find the different parameters for the internet or intranet APIs. The URL for the endpoints are built from **context** > **version** > **resource**.
 
 ## Step 3: Test the proxy API
@@ -56,4 +66,4 @@ Just like in tutoral 3, we need to use an APP to access a L1 secured API. So **c
 
 Finally we can **test the entire system** from proxy to source. When the proxy API is invoked, it will then invoke the source API through APEX. This is the bridging API call that we are trying to simulate.
 
-We're done with the entire system and APEX for now. In the [next tutorial](/training/tutorials/tutorial-5) we will start to configure key-pairs to further enhance the security of the entire system.
+We're done with the entire system and APEX for now. In the next tutorial we will start to configure key-pairs to further enhance the security of the entire system.

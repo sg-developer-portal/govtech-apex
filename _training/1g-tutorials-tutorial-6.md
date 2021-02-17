@@ -98,4 +98,4 @@ The format of the private key accepted by APEX is **.pem**. Chooose **OpenSSL** 
 
 **Uncheck the encrypt checkbox** and click on **Export** to save the private key. Save this file someplace you remember. We will need to use this file again in tutorial 8 where we will do a "real world" test invoke of the bridging APIs.
 
-We have finished with tutorial 6. Please move on to the [next tutorial](/training/tutorials/tutorial-6) where we will change the policy of the proxy API to L2.
+We have finished with tutorial 6. Please move on to the next tutorial where we will change the policy of the proxy API to L2.

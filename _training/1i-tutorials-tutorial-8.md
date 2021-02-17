@@ -111,11 +111,19 @@ Now, move to the terminal and run the following command (**node index.js**). If 
 
 ## Common Mistakes
 
-So if you don't get the test clear message in the terminal, here are some mistakes that you might encounter that will cause the test to fail.
+If you don't get the test clear message in the terminal, here are some mistakes that you might encounter that might have caused the test to fail.
 
-The first would be that the endpoints for the APIs are *not configured properly or named correctly*. Follow the naming convention that we used in the tutorials and the endpoints should be configured properly. Or if you have changed the names for anything, make sure that you remember to use the correct names.
+1. Incorrect endpoints
 
-The second is usually a *wrongly named URL*.
+   The first would be that the endpoints for the APIs are *not configured properly or named correctly*. Follow the naming convention that we used in the tutorials and the endpoints should be configured properly. Or if you have changed the names for anything, make sure that you remember to use the correct names.
+
+2. Wrong URLs
+
+   The second is usually a *wrongly named URL*. Sometimes we might accidentally mis-highlight and copy too little (or too much) of the URL.
 
 So double check those two things mentioned and you should clear the test.
+
+## FIN
+
+With that, this concludes our APEX hands-on learning session. We hope that you have gained a deeper understanding of APEX's inner workings and look forward to see the ingenious ways that you will use APEX.
 

@@ -42,4 +42,4 @@ Now we can **invoke the API** and if nothing goes wrong we should get the HTTP s
 
 Remember we removed the L1 policy from the source API way back? We need to re-attach it back. So **log back in to the source gateway** and re-attach the REST L1 Authentication Policy back to the source API.
 
-Once that is done, the entire system can no longer be tested using APEX's Test Client. The bridging APIs are complete. If we wanted to test this system, we need to simulate a real situation where this API will be called. That will be done in the [next and final tutorial](/training/tutorials/tutorial-8) of this series.
+Once that is done, the entire system can no longer be tested using APEX's Test Client. The bridging APIs are complete. If we wanted to test this system, we need to simulate a real situation where this API will be called. That will be done in the next and final tutorial of this series.

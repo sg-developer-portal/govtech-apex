@@ -20,9 +20,15 @@ This tutorial will show you how to create a REST API using APEX's API Setup. Aft
 
 ![login screen of apex](/images/tutorial-1/1-login.png "Login to the corect gateway!!")
 
-We will be creating a REST API on the source gateway. The URL is:
+There are two different URLs that we will be using today. These represent the two different zones of APEX, the intranet zone, and the internet zone.
 
-<http://training-pvt.cm.gov.gdshive.com:9945/cm>
+|               | Intranet Zone        | Internet Zone       |
+| ------------- | -------------------- | ------------------- |
+| Also known as | source/internal zone | proxy/external zone |
+| URL           | <http://training-pvt.cm.gov.gdshive.com:9945/cm> | <http://training.cm.gov.gdshive.com:9945/cm> |
+|               | **^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^** |  |
+
+We will be creating a REST API in the intranet zone. Please click on the appropriate link.
 
 This gateway is the side of APEX that handles intranet traffic. **Please log in** using the e-mail and password provided to you. The e-mail format is: **providerXX@userad.idahive.sg**
 
@@ -40,7 +46,7 @@ After logging in, find the giant plus icon at the top right of the screen next t
 
 Here we can specify how we want to create our API. The main methods are from scratch using our API Setup or by importing a file such as a SWAGGER/WSDL document. For our tutorials however, we'll be creating a REST API from scratch. So pick that option. **Specify a name for your API and use this URL for the endpoint:**
 
-*https://sherlock.apex.gdshive.com/rest/api/helloworld*
+> https://sherlock.apex.gdshive.com/rest/api/helloworld
 
 This is a sample endpoint for your API to hit when it is called. Click Save to continue.
 *Note that providers should whitelist their FQDNs through the APEX Portal when in production*
@@ -67,10 +73,21 @@ And you have finished creating your very first REST API in APEX. Your API is now
 
 So in the deployments section, **click on the green Edit button** and replace the context path with:
 
-/apex/team**XX**/v1/helloworld
+> /apex/team**XX**/v1/helloworld
+
 *Replace the bold text with your team number*
 
-This context path specifies the resource that you want your API to get. In this case, *helloworld* is the target resource that will be returned to the GET call.
+| Attributes              | Intranet                       | Internet                       |
+| APEX API Name           | Training Helloworld Team**XX** | Training Helloworld Team**XX** |
+| Gateway Name            | training                       | training-pvt                   |
+| Context                 | apex/team**XX**                | apex/team**XX**                |
+| Version                 | v1                             | v1                             |
+| Resource                | helloworld                     | helloworld                     |
+| Sercurity Policy        | **REST L1 Authentication Policy v2 - IG** | **REST L2 Authentication Policy v2 - EG** |
+| Target Endpoint URL     | https://sherlock.apex.gdshive.com/rest/api/helloworld | http://training-pvt.api.gov.gdshive.com/apex/team**XX**/v1/helloworld |
+| Calculated Endpoint URL | http://training-pvt.api.gov.gdshive.com/apex/team**XX**/v1/helloworld | http://training-pvt.api.gov.gdshive.com/apex/team**XX**/v1/helloworld |
+
+This context path specifies the resource that you want your API to get. The URL for the endpoints are built from **context** > **version** > **resource**. In this case, *helloworld* is the target resource that will be returned to the GET call.
 
 And we're done with the API creation.
 
@@ -85,9 +102,8 @@ No API creation would be complete without doing some tests. APEX comes with a po
 #### Call Logging
 
 ![Logs page](/images/tutorial-1/10-logs.png "Not the un-environmental kind.")
-> No trees were felled
 
-All API calls are logged by APEX. This way we can see what happens when the API is called. The caller, resource called, call status, .etc are all collected. **Go to Monitor -> Logs.** We can see that the API call was successful from the number in the status column. 200 in http code means that the call was successful.
+All API calls are logged by APEX. This way we can see what happens when the API is called. The caller, resource called, call status, .etc are all collected. **Go to Monitor -> Logs.** We can see that the API call was successful from the number in the status column. Status 200 in http code means that the call was successful.
 
 #### The Audit function
 
@@ -117,4 +133,4 @@ Before, nothing would show up when we click on the magnifying glass on the serve
 
 *Typically, auditing is turned off when in production to reduce the load on the servers. So don't leave it on when you deploy.*
 
-With that, tutorial 1 is done. You may proceed on to the [next tutorial](/training/tutorials/tutorial-2) which deals with the security of the API.
+With that, tutorial 1 is done. You may proceed on to the next tutorial which deals with the security of the API.
