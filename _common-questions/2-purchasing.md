@@ -1,5 +1,5 @@
 ---
-title: Contact Us
+title: Purchasing
 permalink: /common-questions/purchasing/
 ---
 

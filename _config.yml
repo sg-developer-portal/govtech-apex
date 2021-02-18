@@ -20,7 +20,7 @@ colors:
 
 
 collections:
-  about-us:
+  common-questions:
     output: true
   getting-started:
     output: true

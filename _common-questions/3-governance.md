@@ -1,5 +1,5 @@
 ---
-title: Contact Us
+title: Governance
 permalink: /common-questions/governance/
 ---
 

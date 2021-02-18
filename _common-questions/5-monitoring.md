@@ -1,5 +1,5 @@
 ---
-title: Contact Us
+title: Monitoring
 permalink: /common-questions/monitoring/
 ---
 

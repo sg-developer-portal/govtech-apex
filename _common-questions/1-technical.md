@@ -1,5 +1,5 @@
 ---
-title: Contact Us
+title: Technical Info
 permalink: /common-questions/technical/
 ---
 
