@@ -5,7 +5,7 @@ permalink: /getting-started/about-apex/
 
 # What is APEX
 
-APEX (Application Programming interface Exchange is a self-service API platform developed by GovTech that makes it simple and easy for the agencies to publish, maintain, monitor and secure their APIs. The platform acts as a centralized location to be used by the whole-of-government for producing and consuming APIs promoting data sharing to create innovative digital services.
+APEX (**A**pplication **P**rogramming interface **Ex**change is a self-service API platform developed by GovTech that makes it simple and easy for the agencies to publish, maintain, monitor and secure their APIs. The platform acts as a centralized location to be used by the whole-of-government for producing and consuming APIs promoting data sharing to create innovative digital services.
 
 With APEX, you can
 

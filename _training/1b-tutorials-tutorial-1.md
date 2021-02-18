@@ -26,7 +26,6 @@ There are two different URLs that we will be using today. These represent the tw
 | ------------- | -------------------- | ------------------- |
 | Also known as | source/internal zone | proxy/external zone |
 | URL           | <http://training-pvt.cm.gov.gdshive.com:9945/cm> | <http://training.cm.gov.gdshive.com:9945/cm> |
-|               | **^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^** |  |
 
 We will be creating a REST API in the intranet zone. Please click on the appropriate link.
 
@@ -83,7 +82,7 @@ So in the deployments section, **click on the green Edit button** and replace th
 | Context                 | apex/team**XX**                | apex/team**XX**                |
 | Version                 | v1                             | v1                             |
 | Resource                | helloworld                     | helloworld                     |
-| Sercurity Policy        | **REST L1 Authentication Policy v2 - IG** | **REST L2 Authentication Policy v2 - EG** |
+| Security Policy         | **REST L1 Authentication Policy v2 - IG** | **REST L2 Authentication Policy v2 - EG** |
 | Target Endpoint URL     | https://sherlock.apex.gdshive.com/rest/api/helloworld | http://training-pvt.api.gov.gdshive.com/apex/team**XX**/v1/helloworld |
 | Calculated Endpoint URL | http://training-pvt.api.gov.gdshive.com/apex/team**XX**/v1/helloworld | http://training-pvt.api.gov.gdshive.com/apex/team**XX**/v1/helloworld |
 
