@@ -3,20 +3,10 @@ layout: contact_us
 title: Contact Us
 permalink: /contact-us/
 agency_name: GovTech APEX
-locations:
-  - title: Main Office
-    address:
-        - 1 Fusionopolis View
-        - Sandcrawler
-        - Singapore 138577
-    operating_hours:
-      - days: Mon - Fri
-        time: 8.30am - 6.00pm
-        description: Closed on Public Holidays
 contacts:
   - title: APEX Enquiries & Feedback
-    content:
-    - phone: +65 6123 4567
+    content: Should you have any queries, feel free to contact us below.
+    - phone: 
     - email: enquiries@abc.gov.sg
     - other: Contact our AFM Helpdesk
 ---

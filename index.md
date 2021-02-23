@@ -23,10 +23,10 @@ sections:
               description: Access our user guides
               url: /learning-essentials/user-guides/
     - infobar:
-        title: Infobar title
-        subtitle: Subtitle
-        description: About a sentence worth of description here
-        button: Button text
-        url: /faq/
+        title: Using APEX
+        subtitle: Guides for using APEX
+        description: Once you are familiar with basic APEX, read these guides on advanced usage of APEX here.
+        button: Learning Essentials
+        url: /learning-essentials/overview
 ---
 
