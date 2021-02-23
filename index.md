@@ -9,7 +9,7 @@ sections:
     - hero:
         title: APEX Learning
         subtitle: Learn more about APEX and how to use it
-        background: /images/img_cityscape_top.png
+        background: /images/apex-frontpage.png
         button: Getting Started
         url: /getting-started/about-apex/
         key_highlights:
