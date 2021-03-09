@@ -13,7 +13,7 @@ Apex stands for **A**pplication **P**rogramming interface **EX**change, and acts
 
 ## What type of APIs can be shared in APEX?
 
-Apex enables sharing of transactional and data APIs.
+Apex enables sharing of transactional as well as data APIs.
 
 ---
 

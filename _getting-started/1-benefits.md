@@ -7,7 +7,7 @@ permalink: /getting-started/benefits/
 
 ## Robust Governance and Monitoring
 
-APEX is a centralized point to manage, monitor and secure your APIs. The platform also provides real-time API monitoring and logging for auditing purposes.
+APEX is a centralized point to manage, monitor and secure your APIs. The platform also provides real-time API monitoring and logging for auditing purposes. fhgfhhjghhg
 
 ## Easy and Sustainable Data Sharing
 
