@@ -11,7 +11,7 @@ Currently Apex supports REST API and SOAP web services. REST is the recommended 
 
 ---
 
-## How do I create a staging environment for my API on Apex?
+## TO CHECK!! How do I create a staging environment for my API on Apex?
 
 Both the staging and production environments are hosted on the Government Data Centre (GDC). Staging and production environments can be treated as different tenants. Agencies can purchase separate Apex units to create a staging environment. For details, contact the Apex Team.
 
@@ -25,27 +25,29 @@ No, Apex does not provide Content Delivery Network (CDN).
 
 ## Can I create my API on Apex from a swagger file?
 
-Yes, you can create an API on Apex from a swagger file. In fact, swagger is the recommended format, even though Apex also supports RAML (RESTful API Modelling Language) and WSDL (Web Services Description Language) formats.
-
-## How can I leverage on the Cross-Zone Deep-Packet Inspection within Apex?
-
-The payload cannot be encrypted to leverage on the DPI.
+Yes, you can create an API on Apex from a Swagger file. In fact, Swagger is the recommended format, even though Apex also supports RAML (RESTful API Modelling Language) and WSDL (Web Services Description Language) formats.
 
 ---
 
-## To use Apex, do i need to host my application in Nectar?
+## How can I leverage on the Cross-Zone Deep-Packet Inspection (DPI) within Apex?
+
+The payload cannot be encrypted to leverage on DPI.
+
+---
+
+## To use Apex, do I need to host my application in Nectar?
 
 Applications need not be hosted on Nectar to leverage on Apex.
 
 ---
 
-## Is it possible to store files that can service request on Apex?
+## Is it possible to store files that can serve requests on Apex?
 
-Apex is not meant for storing files. The provider of these files will need to expose it as a web service which can be fronted by Apex.
+Apex is not meant for storing files. The provider of these files will need to expose it as a web service which can then be fronted by Apex.
 
-## Is there a limit on the number of consumers ?
+## Is there a limit on the number of consumers?
 
-There is no limit to the number of consumer that can use an API although we recommended to scale the number of Apex Units (AUs) per three application consumers.
+There is no limit to the number of consumers that can use an API although we recommended to scale the number of Apex Units (AUs) up per three application consumers.
 
 ---
 
@@ -55,9 +57,9 @@ Apex is a two-way API Gateway.
 
 ---
 
-## Are the APEX Units (AUs) based on per agency per project?
+## Are the APEX Units (AUs) based on a per agency per project basis?
 
-AU can be based on agency or project.
+AUs can be based on either agency or project.
 
 ---
 
@@ -67,27 +69,27 @@ There are two zones where the Apex services are hosted - Intranet and Internet. 
 
 ---
 
-## Is there any disaster recovery for Apex?
+## TO CHECK!! Is there any disaster recovery for Apex?
 
 Keeping in mind the security and compliance requirements, there is no suitable disaster recovery site available for the current phase on which Apex can be deployed. This will change once a suitable hosting site becomes available.
 
 ---
 
-## If there is a surge in the traffic, is there a process to scale up the Apex Units immediately?
+## TO CHECK If there is a surge in the traffic, is there a process to scale up the Apex Units immediately?
 
 It may take two weeks to spin up additional Apex Units. Subject to schedule availability.
 
 ---
 
-## What is application layer security that the API Provider can implement to secure their API?
+## What is the application layer security the API Provider can implement to secure their API?
 
-Apex supports two type of API authentication. For L1 it is APP ID and APP Secret , and L2 is certificate-based signing. We recommend L2 authentication for non-government consumers such as banks or business.
+Apex supports two types of API authentication, L1, and L2. L1 security uses APP IDs and APP Secrets; L2 uses certificate-based signing. We recommend L2 authentication for non-government consumers such as banks or business.
 
 ---
 
-## Do I need two sets of APEX Units if there is both Intranet and Internet transactions (ie. to bridge across the gap)?
+## Do I need two sets of APEX Units if there are both Intranet and Internet transactions (ie. to bridge across the gap)?
 
-Yes, you will need two sets of AUs, one each for both Intranet and Internet segment.
+Yes, you will need two sets of AUs, one each for both Intranet and Internet segments.
 
 ---
 
