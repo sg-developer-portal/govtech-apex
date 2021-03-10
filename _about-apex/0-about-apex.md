@@ -14,7 +14,7 @@ With APEX, you can
 * Reduce administrative effort to manage an API
 * Allow consumer agencies to directly request access to an API using the automated workflow.
 
-![](/images/getting-started/diagram_apexDesign.png "APEX Design.")
+![](/images/about-apex/diagram_apexDesign.png "APEX Design.")
 
 APEX meets the data classification requirements for agencies and acts as a bridge for data sharing between the Internet and Intranet zones within the government network.
 
