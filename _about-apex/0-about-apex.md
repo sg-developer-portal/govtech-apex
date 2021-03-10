@@ -1,6 +1,6 @@
 ---
-title: About Apex
-permalink: /getting-started/about-apex/
+title: About APEX
+permalink: /about-apex/about-apex/
 ---
 
 # What is APEX

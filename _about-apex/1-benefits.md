@@ -1,6 +1,6 @@
 ---
 title: Benefits
-permalink: /getting-started/benefits/
+permalink: /about-apex/benefits/
 ---
 
 # Benefits of using APEX

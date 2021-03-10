@@ -1,6 +1,6 @@
 ---
 title: Service Offerings
-permalink: /getting-started/service-offerings/
+permalink: /about-apex/service-offerings/
 ---
 
 # Service Offerings
