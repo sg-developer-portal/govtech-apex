@@ -20,9 +20,9 @@ colors:
 
 
 collections:
-  common-questions:
+  about-apex:
     output: true
-  getting-started:
+  common-questions:
     output: true
   learning-essentials:
     output: true

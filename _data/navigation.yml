@@ -7,14 +7,10 @@
 logo: /images/apex-logo.svg
 
 links:
-  - title: Contact Us
-    url: /contact-us/
-  - title: FAQ
-    url: /FAQ/
+  - title: About APEX
+    collection: about-apex
   - title: Common Questions
     collection: common-questions
-  - title: Getting Started
-    collection: getting-started
   - title: Learning Essentials
     collection: learning-essentials
   - title: Training
