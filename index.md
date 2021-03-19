@@ -10,8 +10,8 @@ sections:
         title: APEX Learning Portal
         subtitle: Learn more about APEX and how to use it
         background: /images/apex-frontpage-alt.png
-        button: Getting Started
-        url: /getting-started/about-apex/
+        button: About APEX
+        url: /about-apex/about-apex/
         key_highlights:
             - title: Providers
               description: Creating APIs

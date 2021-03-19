@@ -1,6 +1,6 @@
 ---
 title: Projects
-permalink: /learning-essentials/providers/projects
+permalink: /onboarding/providers/projects/
 third_nav_title: Providers
 ---
 

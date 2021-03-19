@@ -7,7 +7,7 @@ permalink: /common-questions/purchasing/
 
 ## What is an Apex Unit (AU) ?
 
-Refer to the Specifications Section in the Getting Started page.
+Refer to the Specifications Section in About APEX.
 
 ---
 

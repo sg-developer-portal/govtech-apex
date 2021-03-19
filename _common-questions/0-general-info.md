@@ -7,7 +7,7 @@ permalink: /common-questions/general-info/
 
 ## What is APEX?
 
-APEX stands for **A**pplication **P**rogramming interface **EX**change, and acts as a whole-of-government self-service data sharing platform that enables Consumers and Providers to directly communicate in terms of requesting and granting access to APIs. For details, please refer to [Getting Started - Overview](/getting-started/about-apex/).
+APEX stands for **A**pplication **P**rogramming interface **EX**change, and acts as a whole-of-government self-service data sharing platform that enables Consumers and Providers to directly communicate in terms of requesting and granting access to APIs. For details, please refer to [About APEX - Overview](/about-apex/about-apex/).
 
 ---
 
@@ -27,7 +27,7 @@ Additionally, REST services are more loosely coupled unlike SOAP services where 
 
 ## How secure is APEX?
 
-APEX is designed to be compliant with the IM8 (Instruction Manuals 8), Green Book and AIAS (Application Infrastructure Architecture Standard). For more details, please refer to [Getting Started - Overview](/getting-started/about-apex/).
+APEX is designed to be compliant with the IM8 (Instruction Manuals 8), Green Book and AIAS (Application Infrastructure Architecture Standard). For more details, please refer to [About APEX - Overview](/getting-started/about-apex/).
 
 ---
 

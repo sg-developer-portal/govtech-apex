@@ -11,9 +11,11 @@ links:
     collection: about-apex
   - title: Common Questions
     collection: common-questions
-  - title: Learning Essentials
-    collection: learning-essentials
+  - title: Onboarding
+    collection: onboarding
   - title: Training
     collection: training
+  - title: User Guides
+    url: /user-guides/
   - title: Contact Us
     url: /contact-us/

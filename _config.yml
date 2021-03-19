@@ -26,6 +26,8 @@ collections:
     output: true
   learning-essentials:
     output: true
+  onboarding:
+    output: true
   training:
     output: true
 
