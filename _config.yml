@@ -30,6 +30,8 @@ collections:
     output: true
   training:
     output: true
+  knowledge-base:
+    output: true
 
 description: An Isomer site of the Singapore Government
 

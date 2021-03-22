@@ -1,6 +1,6 @@
 ---
 title: User Guides
-permalink: /user-guides/
+permalink: /knowledge-base/user-guides/
 ---
 
 # User Guides and Documentation
